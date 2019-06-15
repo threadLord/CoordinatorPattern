@@ -11,6 +11,7 @@ import Foundation
 
 protocol ProtocolUser {
     func signUp(userName: String, password: String) -> Bool
+    
 }
 
 
