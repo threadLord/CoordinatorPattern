@@ -6,4 +6,13 @@
 //  Copyright © 2019 OSX. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+@IBDesignable class Register : UIView {
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+    }
+    
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,13 @@
 		1077D15422B4F1120064138F /* ReadPost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D15322B4F1120064138F /* ReadPost.xib */; };
 		1077D15622B4F1230064138F /* ReadPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D15522B4F1230064138F /* ReadPost.swift */; };
 		1077D15922B4F1670064138F /* UserProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D15822B4F1670064138F /* UserProtocols.swift */; };
+		10CED5B622B52A9E001EF3D1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CED5B522B52A9E001EF3D1 /* PostViewController.swift */; };
+		10CED5BB22B52B21001EF3D1 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CED5BA22B52B21001EF3D1 /* MainCoordinator.swift */; };
+		10CED5BD22B52BAA001EF3D1 /* ViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CED5BC22B52BAA001EF3D1 /* ViewLoader.swift */; };
+		10CED5C022B52D87001EF3D1 /* AllViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CED5BF22B52D87001EF3D1 /* AllViews.swift */; };
+		10CED5C222B52E57001EF3D1 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CED5C122B52E57001EF3D1 /* UserViewController.swift */; };
+		10CED5C422B545F0001EF3D1 /* Login2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CED5C322B545F0001EF3D1 /* Login2.swift */; };
+		10CED5C622B54610001EF3D1 /* Login2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CED5C522B54610001EF3D1 /* Login2.xib */; };
 		BB9E38983F2ECA50E467DF06 /* Pods_CoordinatorPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206C07288C712F748CF6E6D /* Pods_CoordinatorPattern.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +60,13 @@
 		1077D15322B4F1120064138F /* ReadPost.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadPost.xib; sourceTree = "<group>"; };
 		1077D15522B4F1230064138F /* ReadPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadPost.swift; sourceTree = "<group>"; };
 		1077D15822B4F1670064138F /* UserProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocols.swift; sourceTree = "<group>"; };
+		10CED5B522B52A9E001EF3D1 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		10CED5BA22B52B21001EF3D1 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = CoordinatorPattern/MyRules/Coordinator/MainCoordinator.swift; sourceTree = SOURCE_ROOT; };
+		10CED5BC22B52BAA001EF3D1 /* ViewLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoader.swift; sourceTree = "<group>"; };
+		10CED5BF22B52D87001EF3D1 /* AllViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViews.swift; sourceTree = "<group>"; };
+		10CED5C122B52E57001EF3D1 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		10CED5C322B545F0001EF3D1 /* Login2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2.swift; sourceTree = "<group>"; };
+		10CED5C522B54610001EF3D1 /* Login2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login2.xib; sourceTree = "<group>"; };
 		672A934F6EDFC039F45C46EE /* Pods-CoordinatorPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorPattern.debug.xcconfig"; path = "Target Support Files/Pods-CoordinatorPattern/Pods-CoordinatorPattern.debug.xcconfig"; sourceTree = "<group>"; };
 		90511C936ED1449B334A9060 /* Pods-CoordinatorPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorPattern.release.xcconfig"; path = "Target Support Files/Pods-CoordinatorPattern/Pods-CoordinatorPattern.release.xcconfig"; sourceTree = "<group>"; };
 		F206C07288C712F748CF6E6D /* Pods_CoordinatorPattern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoordinatorPattern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +105,8 @@
 		1077D12322B4EDAD0064138F /* CoordinatorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				10CED5B722B52AD1001EF3D1 /* MyRules */,
+				1077D15722B4F1480064138F /* Protocols */,
 				1077D13822B4EDF10064138F /* Views */,
 				1077D13722B4EDE70064138F /* Coordinator */,
 				1077D13622B4EDDC0064138F /* Router */,
@@ -121,7 +137,6 @@
 		1077D13822B4EDF10064138F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1077D15722B4F1480064138F /* Protocols */,
 				1077D14622B4EF600064138F /* PostView */,
 				1077D14522B4EF4F0064138F /* UserView */,
 			);
@@ -139,6 +154,9 @@
 				1077D14322B4EF0F0064138F /* ChangeProfile.swift */,
 				1077D14722B4EFA40064138F /* ActivityView.xib */,
 				1077D14922B4EFBE0064138F /* ActivityView.swift */,
+				10CED5C322B545F0001EF3D1 /* Login2.swift */,
+				10CED5C522B54610001EF3D1 /* Login2.xib */,
+				10CED5C122B52E57001EF3D1 /* UserViewController.swift */,
 			);
 			path = UserView;
 			sourceTree = "<group>";
@@ -152,6 +170,7 @@
 				1077D15122B4F02C0064138F /* AllPosts.swift */,
 				1077D15322B4F1120064138F /* ReadPost.xib */,
 				1077D15522B4F1230064138F /* ReadPost.swift */,
+				10CED5B522B52A9E001EF3D1 /* PostViewController.swift */,
 			);
 			path = PostView;
 			sourceTree = "<group>";
@@ -162,6 +181,24 @@
 				1077D15822B4F1670064138F /* UserProtocols.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		10CED5B722B52AD1001EF3D1 /* MyRules */ = {
+			isa = PBXGroup;
+			children = (
+				10CED5B822B52ADD001EF3D1 /* Coordinator */,
+				10CED5BC22B52BAA001EF3D1 /* ViewLoader.swift */,
+				10CED5BF22B52D87001EF3D1 /* AllViews.swift */,
+			);
+			path = MyRules;
+			sourceTree = "<group>";
+		};
+		10CED5B822B52ADD001EF3D1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				10CED5BA22B52B21001EF3D1 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		A56287357BAC1B12D8DD8DF8 /* Frameworks */ = {
@@ -178,7 +215,6 @@
 				672A934F6EDFC039F45C46EE /* Pods-CoordinatorPattern.debug.xcconfig */,
 				90511C936ED1449B334A9060 /* Pods-CoordinatorPattern.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1077D13E22B4EE680064138F /* Register.xib in Resources */,
+				10CED5C622B54610001EF3D1 /* Login2.xib in Resources */,
 				1077D14C22B4EFF40064138F /* CreatePost.xib in Resources */,
 				1077D14222B4EEF10064138F /* ChangeProfile.xib in Resources */,
 				1077D15022B4F01C0064138F /* AllPosts.xib in Resources */,
@@ -305,6 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1077D14E22B4F0040064138F /* CreatePost.swift in Sources */,
+				10CED5C222B52E57001EF3D1 /* UserViewController.swift in Sources */,
+				10CED5C422B545F0001EF3D1 /* Login2.swift in Sources */,
+				10CED5BB22B52B21001EF3D1 /* MainCoordinator.swift in Sources */,
 				1077D14422B4EF0F0064138F /* ChangeProfile.swift in Sources */,
 				1077D13C22B4EE550064138F /* Login.swift in Sources */,
 				1077D15222B4F02C0064138F /* AllPosts.swift in Sources */,
@@ -314,6 +354,9 @@
 				1077D15622B4F1230064138F /* ReadPost.swift in Sources */,
 				1077D12522B4EDAE0064138F /* AppDelegate.swift in Sources */,
 				1077D14A22B4EFBE0064138F /* ActivityView.swift in Sources */,
+				10CED5BD22B52BAA001EF3D1 /* ViewLoader.swift in Sources */,
+				10CED5C022B52D87001EF3D1 /* AllViews.swift in Sources */,
+				10CED5B622B52A9E001EF3D1 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
