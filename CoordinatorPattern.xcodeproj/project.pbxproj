@@ -12,6 +12,21 @@
 		1077D12A22B4EDAE0064138F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1077D12822B4EDAE0064138F /* Main.storyboard */; };
 		1077D12C22B4EDAF0064138F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1077D12B22B4EDAF0064138F /* Assets.xcassets */; };
 		1077D12F22B4EDAF0064138F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1077D12D22B4EDAF0064138F /* LaunchScreen.storyboard */; };
+		1077D13A22B4EE430064138F /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D13922B4EE430064138F /* Login.xib */; };
+		1077D13C22B4EE550064138F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D13B22B4EE550064138F /* Login.swift */; };
+		1077D13E22B4EE680064138F /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D13D22B4EE680064138F /* Register.xib */; };
+		1077D14022B4EE7B0064138F /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D13F22B4EE7B0064138F /* Register.swift */; };
+		1077D14222B4EEF10064138F /* ChangeProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D14122B4EEF10064138F /* ChangeProfile.xib */; };
+		1077D14422B4EF0F0064138F /* ChangeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D14322B4EF0F0064138F /* ChangeProfile.swift */; };
+		1077D14822B4EFA40064138F /* ActivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D14722B4EFA40064138F /* ActivityView.xib */; };
+		1077D14A22B4EFBE0064138F /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D14922B4EFBE0064138F /* ActivityView.swift */; };
+		1077D14C22B4EFF40064138F /* CreatePost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D14B22B4EFF40064138F /* CreatePost.xib */; };
+		1077D14E22B4F0040064138F /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D14D22B4F0040064138F /* CreatePost.swift */; };
+		1077D15022B4F01C0064138F /* AllPosts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D14F22B4F01C0064138F /* AllPosts.xib */; };
+		1077D15222B4F02C0064138F /* AllPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D15122B4F02C0064138F /* AllPosts.swift */; };
+		1077D15422B4F1120064138F /* ReadPost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077D15322B4F1120064138F /* ReadPost.xib */; };
+		1077D15622B4F1230064138F /* ReadPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D15522B4F1230064138F /* ReadPost.swift */; };
+		1077D15922B4F1670064138F /* UserProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1077D15822B4F1670064138F /* UserProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		1077D12B22B4EDAF0064138F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1077D12E22B4EDAF0064138F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1077D13022B4EDAF0064138F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1077D13922B4EE430064138F /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		1077D13B22B4EE550064138F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1077D13D22B4EE680064138F /* Register.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
+		1077D13F22B4EE7B0064138F /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		1077D14122B4EEF10064138F /* ChangeProfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeProfile.xib; sourceTree = "<group>"; };
+		1077D14322B4EF0F0064138F /* ChangeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProfile.swift; sourceTree = "<group>"; };
+		1077D14722B4EFA40064138F /* ActivityView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityView.xib; sourceTree = "<group>"; };
+		1077D14922B4EFBE0064138F /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		1077D14B22B4EFF40064138F /* CreatePost.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatePost.xib; sourceTree = "<group>"; };
+		1077D14D22B4F0040064138F /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
+		1077D14F22B4F01C0064138F /* AllPosts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllPosts.xib; sourceTree = "<group>"; };
+		1077D15122B4F02C0064138F /* AllPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPosts.swift; sourceTree = "<group>"; };
+		1077D15322B4F1120064138F /* ReadPost.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadPost.xib; sourceTree = "<group>"; };
+		1077D15522B4F1230064138F /* ReadPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadPost.swift; sourceTree = "<group>"; };
+		1077D15822B4F1670064138F /* UserProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,9 @@
 		1077D12322B4EDAD0064138F /* CoordinatorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				1077D13822B4EDF10064138F /* Views */,
+				1077D13722B4EDE70064138F /* Coordinator */,
+				1077D13622B4EDDC0064138F /* Router */,
 				1077D12422B4EDAE0064138F /* AppDelegate.swift */,
 				1077D12622B4EDAE0064138F /* ViewController.swift */,
 				1077D12822B4EDAE0064138F /* Main.storyboard */,
@@ -62,6 +95,66 @@
 				1077D13022B4EDAF0064138F /* Info.plist */,
 			);
 			path = CoordinatorPattern;
+			sourceTree = "<group>";
+		};
+		1077D13622B4EDDC0064138F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1077D13722B4EDE70064138F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1077D13822B4EDF10064138F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1077D15722B4F1480064138F /* Protocols */,
+				1077D14622B4EF600064138F /* PostView */,
+				1077D14522B4EF4F0064138F /* UserView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1077D14522B4EF4F0064138F /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				1077D13922B4EE430064138F /* Login.xib */,
+				1077D13B22B4EE550064138F /* Login.swift */,
+				1077D13D22B4EE680064138F /* Register.xib */,
+				1077D13F22B4EE7B0064138F /* Register.swift */,
+				1077D14122B4EEF10064138F /* ChangeProfile.xib */,
+				1077D14322B4EF0F0064138F /* ChangeProfile.swift */,
+				1077D14722B4EFA40064138F /* ActivityView.xib */,
+				1077D14922B4EFBE0064138F /* ActivityView.swift */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		1077D14622B4EF600064138F /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				1077D14B22B4EFF40064138F /* CreatePost.xib */,
+				1077D14D22B4F0040064138F /* CreatePost.swift */,
+				1077D14F22B4F01C0064138F /* AllPosts.xib */,
+				1077D15122B4F02C0064138F /* AllPosts.swift */,
+				1077D15322B4F1120064138F /* ReadPost.xib */,
+				1077D15522B4F1230064138F /* ReadPost.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		1077D15722B4F1480064138F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1077D15822B4F1670064138F /* UserProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +215,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1077D13E22B4EE680064138F /* Register.xib in Resources */,
+				1077D14C22B4EFF40064138F /* CreatePost.xib in Resources */,
+				1077D14222B4EEF10064138F /* ChangeProfile.xib in Resources */,
+				1077D15022B4F01C0064138F /* AllPosts.xib in Resources */,
 				1077D12F22B4EDAF0064138F /* LaunchScreen.storyboard in Resources */,
+				1077D15422B4F1120064138F /* ReadPost.xib in Resources */,
 				1077D12C22B4EDAF0064138F /* Assets.xcassets in Resources */,
 				1077D12A22B4EDAE0064138F /* Main.storyboard in Resources */,
+				1077D14822B4EFA40064138F /* ActivityView.xib in Resources */,
+				1077D13A22B4EE430064138F /* Login.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +235,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1077D14E22B4F0040064138F /* CreatePost.swift in Sources */,
+				1077D14422B4EF0F0064138F /* ChangeProfile.swift in Sources */,
+				1077D13C22B4EE550064138F /* Login.swift in Sources */,
+				1077D15222B4F02C0064138F /* AllPosts.swift in Sources */,
 				1077D12722B4EDAE0064138F /* ViewController.swift in Sources */,
+				1077D14022B4EE7B0064138F /* Register.swift in Sources */,
+				1077D15922B4F1670064138F /* UserProtocols.swift in Sources */,
+				1077D15622B4F1230064138F /* ReadPost.swift in Sources */,
 				1077D12522B4EDAE0064138F /* AppDelegate.swift in Sources */,
+				1077D14A22B4EFBE0064138F /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
